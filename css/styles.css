@@ -343,6 +343,22 @@ body {
     }
 }
 
+.link_article {
+    color: rgb(95, 169, 212);
+    font-size: 20px;
+    transition: all 300ms ease-in-out;
+}
+
+.link_article:hover {
+    color: rgb(95, 212, 114);
+    font-size: 20px;
+}
+
+.link_article:active{
+    color:rgb(240, 184, 81);
+    transform: scale(1.2);
+}
+
 /*BARRA LATERAL*/
 
 #lateral {
@@ -632,20 +648,24 @@ aside h3:first-child {
     animation: blink 5s infinite linear;
 }
 
-@keyframes blink{
-    0%{
+@keyframes blink {
+    0% {
         border: 10px solid #37bcf9;
     }
-    25%{
+
+    25% {
         border: 10px solid green;
     }
-    50%{
+
+    50% {
         border: 10px solid hotpink;
     }
-    75%{
+
+    75% {
         border: 10px solid gold;
     }
-    100%{
+
+    100% {
         border: 10px solid #37bcf9;
     }
 }
@@ -728,7 +748,7 @@ footer a {
     height: 40px;
 }
 
-#footer ul li:hover a{
+#footer ul li:hover a {
     padding-left: 40px;
     color: #CCC;
     width: 100%;
